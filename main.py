@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 async def read_root():
-    return {"message": "Hello World! You can view the docs at https://potatoapi.ml/docs"}
+    return {"message": "yo! You can view the docs at https://www.potatoapi.ml/docs"}
 
 
 @app.get("/items/{item_id}")
